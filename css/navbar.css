@@ -1,0 +1,46 @@
+.navigation {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background: var(--light-gray);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navigation .container {
+  height: 100%;
+}
+
+.navigation .nav-wrapper {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* logo */
+.nav-wrapper .logo a {
+  color: var(--black);
+  font-style: 700;
+  font-family: var(--font-2);
+  font-size: 30px;
+  text-decoration: none;
+}
+
+/* menu */
+.nav-wrapper .menu {
+  list-style: none;
+  display: block;
+}
+
+.nav-wrapper .menu ul li {
+  display: inline-block;
+  padding: 0 18px;
+}
+
+.nav-wrapper .menu ul li a {
+  color: var(--black);
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+}
