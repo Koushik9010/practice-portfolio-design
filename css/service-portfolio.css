@@ -86,12 +86,11 @@
   justify-content: center;
   align-items: center;
   opacity: 0;
-  pointer-events: none;
   transition: opacity 0.5s ease;
 }
 /* hover effect */
 .portfolio .card-content:hover .card-img img {
-  transform: scale(1.1); /* for smooth scaling */
+  transform: scale(1.1); /* scales the image upto 110% of its original size */
 }
 
 .portfolio .card-content:hover .overlay {
