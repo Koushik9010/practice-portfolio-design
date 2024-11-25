@@ -1,0 +1,38 @@
+/* testimonial section */
+.testimonial {
+  padding: 60px 0;
+}
+
+.testimonial-cont {
+  margin-top: 30px;
+}
+
+.testimonial-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.testimonial-cont h3 {
+  margin: 20px 0 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.testimonial-cont p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.testimonial-cont .quote {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30x;
+}
